@@ -1,0 +1,1 @@
+{"version":3,"sources":["variables.scss"],"names":[],"mappings":"AAKA,GALA,GAOE,MAAO,KAPT,GACE,UAAW,KAIb,GACE,UAAW","file":"variables.min.css","sourcesContent":["$color: blue;\r\n\r\nul {\r\n    font-size: 14px;\r\n    color: $color;\r\n}\r\nol {\r\n    font-size: 20px;\r\n    color: $color;\r\n}"]}

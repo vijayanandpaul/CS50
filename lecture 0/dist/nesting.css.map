@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["nesting.scss"],"sourcesContent":["div {\r\n    font-size: 18px;\r\n\r\n    p {\r\n        color: blue;\r\n    }\r\n\r\n    ul {\r\n        color: green;\r\n    }\r\n}"],"file":"nesting.css"}
