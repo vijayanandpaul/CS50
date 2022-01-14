@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3c9053a-af07-43e6-860d-51ed15a38ff4" name="Changes" comment="Add exclamation point">
-      <change beforePath="$PROJECT_DIR$/lecture 1/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/lecture 1/hello.html" afterDir="false" />
+    <list default="true" id="c3c9053a-af07-43e6-860d-51ed15a38ff4" name="Changes" comment="Addressed Merge Conflicts">
+      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/flight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/flights/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airline/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture3/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture3/tasks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture3/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +52,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CS50\airline\users\templates\users" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640985095809</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Addressed Merge Conflicts">
+      <created>1640985258178</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640985258178</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +162,7 @@
     <MESSAGE value="Update 2" />
     <MESSAGE value="Add exclamation point" />
     <MESSAGE value="Remove Punctuation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Punctuation" />
+    <MESSAGE value="Addressed Merge Conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addressed Merge Conflicts" />
   </component>
 </project>
