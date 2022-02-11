@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3c9053a-af07-43e6-860d-51ed15a38ff4" name="Changes" comment="Addressed Merge Conflicts">
-      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/flight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/templates/flights/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/flights/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/users/templates/users/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airline/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="c3c9053a-af07-43e6-860d-51ed15a38ff4" name="Changes" comment="New Airline Project">
+      <change afterPath="$PROJECT_DIR$/lecture5/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture3/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/templates/tasks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture3/tasks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture3/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/tasks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640985258178</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New Airline Project">
+      <created>1642132316795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642132316795</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +160,7 @@
     <MESSAGE value="Add exclamation point" />
     <MESSAGE value="Remove Punctuation" />
     <MESSAGE value="Addressed Merge Conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addressed Merge Conflicts" />
+    <MESSAGE value="New Airline Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Airline Project" />
   </component>
 </project>
