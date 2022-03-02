@@ -3,11 +3,33 @@
     <head>
         <title>Tasks</title>
         <script>
+            console.log("Before Event");
             document.addEventListener('DOMContentLoaded', function() {
-                document.querySelector('form').onSubmit = () => {
-                    const task = document.querySelector('#task').value;
-                    console.log(task);
 
+                // by default submit button is diabled
+
+                document.querySelector('#submit').disabled = true;
+        
+                // anytime key is typed, run the function and enable the submit button
+                document.querySelector('#task').onkeyup = () => {
+                    if (document.querySelector('#task').value.length > 0) {
+                        document.querySelector('#submit').disabled = false;
+                    }else
+                        document.querySelector('#submit').disabled = true;
+                }
+ 
+
+                document.querySelector('form').onsubmit = () => {
+                    const task = document.querySelector('#task').value;
+                    console.log("task");
+                    const li = document.createElement('li');
+                    li.innerHTML = task;
+
+                    document.querySelector('#tasks').append(li);
+
+                    document.querySelector('#task').value = '';
+
+                    document.querySelector('#submit').disabled = true;
                     // Stop from submitting
                     return false;
                 }
@@ -21,7 +43,7 @@
         </ul>
         <form>
             <input id="task" placeholder="New Task" type="text">
-            <input type="submit">
+            <input id="submit" type="submit">
         </form>
     </body>
 </html>
